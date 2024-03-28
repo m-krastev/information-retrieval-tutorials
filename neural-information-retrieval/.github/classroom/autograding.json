@@ -1,0 +1,484 @@
+{
+  "tests": [
+    {
+      "name": "test_read_pairs_Test_1",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestDataset::test_read_pairs[Test_1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "test_read_pairs_Test_2",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestDataset::test_read_pairs[Test_2]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "test_pair_dataset_types_Test_1",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestDataset::test_pair_dataset_types[Test_1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_pair_dataset_types_Test_2",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestDataset::test_pair_dataset_types[Test_2]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_pair_dataset_sizes_Test_1",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestDataset::test_pair_dataset_sizes[Test_1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_pair_dataset_sizes_Test_2",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestDataset::test_pair_dataset_sizes[Test_2]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_pair_dataset_values_Test_1",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestDataset::test_pair_dataset_values[Test_1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_pair_dataset_values_Test_2",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestDataset::test_pair_dataset_values[Test_2]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_read_triplets_Test_1",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestDataset::test_read_triplets[Test_1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "test_triplet_dataset_types_Test_1",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestDataset::test_triplet_dataset_types[Test_1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_triplet_dataset_sizes_Test_1",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestDataset::test_triplet_dataset_sizes[Test_1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_triplet_dataset_values_Test_1",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestDataset::test_triplet_dataset_values[Test_1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_score_pairs_Test_1",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestCrossEncoder::test_score_pairs[Test_1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_forward_shapes_Test_1",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestCrossEncoder::test_forward_shapes[Test_1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_forward_values_Test_1",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestCrossEncoder::test_forward_values[Test_1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_ce_run_soft",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestRunFiles::test_ce_run[soft]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "test_ce_run_medium",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestRunFiles::test_ce_run[medium]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "test_ce_run_hard",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestRunFiles::test_ce_run[hard]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "test_dense_run_soft",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestRunFiles::test_dense_run[soft]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "test_dense_run_medium",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestRunFiles::test_dense_run[medium]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "test_dense_run_hard",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestRunFiles::test_dense_run[hard]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "test_sparse_run_soft",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestRunFiles::test_sparse_run[soft]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "test_sparse_run_medium",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestRunFiles::test_sparse_run[medium]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "test_sparse_run_hard",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestRunFiles::test_sparse_run[hard]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "test_encoder_encode_text_dense-any-p2-True",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestBiEncoder::test_encoder_encode_text[dense-any-p2-True]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_encoder_encode_text_dense-any-p2-False",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestBiEncoder::test_encoder_encode_text[dense-any-p2-False]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_encoder_encode_text_dense-no_padding-p2-True",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestBiEncoder::test_encoder_encode_text[dense-no_padding-p2-True]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_encoder_encode_text_dense-no_padding-p2-False",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestBiEncoder::test_encoder_encode_text[dense-no_padding-p2-False]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_encoder_encode_text_sparse-any-p1-False",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestBiEncoder::test_encoder_encode_text[sparse-any-p1-False]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_encoder_encode_text_sparse-any-p2-False",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestBiEncoder::test_encoder_encode_text[sparse-any-p2-False]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_encoder_encode_text_sparse-no_padding-p1-False",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestBiEncoder::test_encoder_encode_text[sparse-no_padding-p1-False]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_encoder_encode_text_sparse-no_padding-p2-False",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestBiEncoder::test_encoder_encode_text[sparse-no_padding-p2-False]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_encoder_score_pairs_dense-any-p3",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestBiEncoder::test_encoder_score_pairs[dense-any-p3]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_encoder_score_pairs_dense-no_padding-p3",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestBiEncoder::test_encoder_score_pairs[dense-no_padding-p3]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_encoder_score_pairs_sparse-any-p1",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestBiEncoder::test_encoder_score_pairs[sparse-any-p1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_encoder_score_pairs_sparse-any-p2",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestBiEncoder::test_encoder_score_pairs[sparse-any-p2]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_encoder_score_pairs_sparse-any-p3",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestBiEncoder::test_encoder_score_pairs[sparse-any-p3]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_encoder_score_pairs_sparse-no_padding-p1",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestBiEncoder::test_encoder_score_pairs[sparse-no_padding-p1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_encoder_score_pairs_sparse-no_padding-p2",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestBiEncoder::test_encoder_score_pairs[sparse-no_padding-p2]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_encoder_score_pairs_sparse-no_padding-p3",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestBiEncoder::test_encoder_score_pairs[sparse-no_padding-p3]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_encoder_forward_dense-any-p3",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestBiEncoder::test_encoder_forward[dense-any-p3]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_encoder_forward_dense-no_padding-p3",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestBiEncoder::test_encoder_forward[dense-no_padding-p3]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_encoder_forward_sparse-any-p1",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestBiEncoder::test_encoder_forward[sparse-any-p1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_encoder_forward_sparse-any-p2",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestBiEncoder::test_encoder_forward[sparse-any-p2]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_encoder_forward_sparse-any-p3",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestBiEncoder::test_encoder_forward[sparse-any-p3]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_encoder_forward_sparse-no_padding-p1",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestBiEncoder::test_encoder_forward[sparse-no_padding-p1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_encoder_forward_sparse-no_padding-p2",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestBiEncoder::test_encoder_forward[sparse-no_padding-p2]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "test_encoder_forward_sparse-no_padding-p3",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=..:. pytest tests.py::TestBiEncoder::test_encoder_forward[sparse-no_padding-p3]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    }
+  ]
+}

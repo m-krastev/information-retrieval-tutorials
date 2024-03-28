@@ -1,0 +1,5 @@
+.idea/
+tests/__pycache__/
+tests/utils/__pycache__/
+ltr/__pycache__/
+.venv/

@@ -1,0 +1,8 @@
+pytest==7.4.0
+torch==2.0.1
+transformers==4.29
+tokenizers==0.13.3
+ir_measures==0.3.3
+faiss-cpu==1.7.4
+pyserini==0.21.0
+jupyter==1.0.0

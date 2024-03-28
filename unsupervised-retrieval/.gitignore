@@ -1,0 +1,7 @@
+*.pyc
+datasets
+.idea
+venv
+.pytest_cache
+.ipynb_checkpoints/
+oryx-build-commands.txt

@@ -1,0 +1,556 @@
+{
+  "tests": [
+    {
+      "name": "test_ClickLTRData_properties",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestDataset::test_ClickLTRData_properties",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_ClickLTRData_content",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestDataset::test_ClickLTRData_content",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_train_listNet_single_biased",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestTrain::test_train_listNet_single[biased]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_train_listNet_single_unbiased",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestTrain::test_train_listNet_single[unbiased]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_train_listNet_dual_dla_narrow",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestTrain::test_train_listNet_dual[dla_narrow]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_train_listNet_dual_dla_wide",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestTrain::test_train_listNet_dual[dla_wide]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_loss_listNet_dual_dla_narrow",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestTrain::test_loss_listNet_dual[dla_narrow]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_loss_listNet_dual_dla_wide",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestTrain::test_loss_listNet_dual[dla_wide]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_logit_to_prob_Test_1",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestTrain::test_logit_to_prob[Test_1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_logit_to_prob_Test_2",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestTrain::test_logit_to_prob[Test_2]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_logit_to_prob_Test_3",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestTrain::test_logit_to_prob[Test_3]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_logit_to_prob_Test_4",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestTrain::test_logit_to_prob[Test_4]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_listNet_loss_biased_shapes_Test_1",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLosses::test_listNet_loss_biased_shapes[Test_1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test_listNet_loss_biased_shapes_Test_2",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLosses::test_listNet_loss_biased_shapes[Test_2]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test_listNet_loss_biased_shapes_Test_3",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLosses::test_listNet_loss_biased_shapes[Test_3]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test_listNet_loss_biased_shapes_Test_4",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLosses::test_listNet_loss_biased_shapes[Test_4]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test_listNet_loss_biased_values_Test_1",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLosses::test_listNet_loss_biased_values[Test_1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test_listNet_loss_biased_values_Test_2",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLosses::test_listNet_loss_biased_values[Test_2]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test_listNet_loss_biased_values_Test_3",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLosses::test_listNet_loss_biased_values[Test_3]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test_listNet_loss_biased_values_Test_4",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLosses::test_listNet_loss_biased_values[Test_4]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test_listNet_loss_unbiased_shapes_Test_1",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLosses::test_listNet_loss_unbiased_shapes[Test_1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test_listNet_loss_unbiased_shapes_Test_2",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLosses::test_listNet_loss_unbiased_shapes[Test_2]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test_listNet_loss_unbiased_shapes_Test_3",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLosses::test_listNet_loss_unbiased_shapes[Test_3]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test_listNet_loss_unbiased_shapes_Test_4",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLosses::test_listNet_loss_unbiased_shapes[Test_4]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test_listNet_loss_unbiased_values_Test_1",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLosses::test_listNet_loss_unbiased_values[Test_1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test_listNet_loss_unbiased_values_Test_2",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLosses::test_listNet_loss_unbiased_values[Test_2]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test_listNet_loss_unbiased_values_Test_3",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLosses::test_listNet_loss_unbiased_values[Test_3]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test_listNet_loss_unbiased_values_Test_4",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLosses::test_listNet_loss_unbiased_values[Test_4]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test_init_Test_1",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLTRModel::test_init[Test_1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_init_Test_2",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLTRModel::test_init[Test_2]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_init_Test_3",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLTRModel::test_init[Test_3]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_init_Test_4",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLTRModel::test_init[Test_4]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_init_Test_5",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLTRModel::test_init[Test_5]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_init_Test_6",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLTRModel::test_init[Test_6]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_init_Test_7",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLTRModel::test_init[Test_7]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_init_Test_8",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLTRModel::test_init[Test_8]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_forward_shape_Test_1",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLTRModel::test_forward_shape[Test_1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_forward_shape_Test_2",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLTRModel::test_forward_shape[Test_2]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_forward_shape_Test_3",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLTRModel::test_forward_shape[Test_3]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_forward_shape_Test_4",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLTRModel::test_forward_shape[Test_4]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_forward_shape_Test_5",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLTRModel::test_forward_shape[Test_5]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_forward_shape_Test_6",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLTRModel::test_forward_shape[Test_6]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_forward_shape_Test_7",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLTRModel::test_forward_shape[Test_7]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_forward_shape_Test_8",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLTRModel::test_forward_shape[Test_8]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_forward_values_Test_1",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLTRModel::test_forward_values[Test_1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_forward_values_Test_2",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLTRModel::test_forward_values[Test_2]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_forward_values_Test_3",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLTRModel::test_forward_values[Test_3]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_forward_values_Test_4",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLTRModel::test_forward_values[Test_4]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_forward_values_Test_5",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLTRModel::test_forward_values[Test_5]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_forward_values_Test_6",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLTRModel::test_forward_values[Test_6]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_forward_values_Test_7",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLTRModel::test_forward_values[Test_7]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_forward_values_Test_8",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestLTRModel::test_forward_values[Test_8]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_biased_json_output_biased_json_output",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestOutputs::test_biased_json_output[biased_json_output]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_unbiased_json_output_unbiased_json_output",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestOutputs::test_unbiased_json_output[unbiased_json_output]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_DLA_json_output_DLA_json_output",
+      "setup": "",
+      "run": "cd tests && PYTHONPATH=.:.. pytest tests.py::TestOutputs::test_DLA_json_output[DLA_json_output]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+
+
+}

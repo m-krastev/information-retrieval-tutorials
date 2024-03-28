@@ -1,0 +1,515 @@
+{
+   "tests": [
+    {
+       "name": "test_tokenize_Test_1",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestPreprocessing::test_tokenize[Test_1]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 1
+    },
+    {
+       "name": "test_tokenize_Test_2",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestPreprocessing::test_tokenize[Test_2]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 1
+    },
+    {
+       "name": "test_tokenize_Test_3",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestPreprocessing::test_tokenize[Test_3]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 1
+    },
+    {
+       "name": "test_stem_Test_1",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestPreprocessing::test_stem[Test_1]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 1
+    },
+    {
+       "name": "test_stem_Test_2",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestPreprocessing::test_stem[Test_2]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 1
+    },
+    {
+       "name": "test_tf_Test_1",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestIndexing::test_tf[Test_1]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+    },
+     {
+       "name": "test_tf_Test_2",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestIndexing::test_tf[Test_2]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+    },
+     {
+       "name": "test_tf_Test_3",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestIndexing::test_tf[Test_3]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+    },
+     {
+       "name": "test_tf_Test_4",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestIndexing::test_tf[Test_4]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+    },
+     {
+       "name": "test_idf_Test_1",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestIndexing::test_idf[Test_1]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+    },
+    {
+       "name": "test_idf_Test_2",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestIndexing::test_idf[Test_2]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+    },
+    {
+       "name": "test_idf_Test_3",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestIndexing::test_idf[Test_3]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+    },
+    {
+       "name": "test_idf_Test_4",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestIndexing::test_idf[Test_4]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+    },
+    {
+       "name": "test_TFIDF_idf_score_TFIDF_idf_score",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_TFIDF_idf_score[TFIDF_idf_score]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_TFIDF_term_score_TFIDF_term_score",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_TFIDF_term_score[TFIDF_term_score]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_NaiveQL_document_scoring_NaiveQL_soft_1",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_NaiveQL_document_scoring[NaiveQL_soft_1]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_NaiveQL_document_ranking_NaiveQL_soft_2",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_NaiveQL_document_ranking[NaiveQL_soft_2]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_NaiveQL_document_ranking_NaiveQL_hard_1",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_NaiveQL_document_ranking[NaiveQL_hard_1]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_NaiveQL_document_ranking_NaiveQL_hard_2",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_NaiveQL_document_ranking[NaiveQL_hard_2]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_NaiveQL_NaiveQL_soft_1",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_NaiveQL[NaiveQL_soft_1]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_NaiveQL_NaiveQL_soft_2",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_NaiveQL[NaiveQL_soft_2]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_NaiveQL_NaiveQL_hard_1",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_NaiveQL[NaiveQL_hard_1]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_NaiveQL_NaiveQL_hard_2",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_NaiveQL[NaiveQL_hard_2]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_SmoothQL_background_model_SmoothQL_soft_1",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_SmoothQL_background_model[SmoothQL_soft_1]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_SmoothQL_background_model_SmoothQL_soft_2",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_SmoothQL_background_model[SmoothQL_soft_2]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_SmoothQL_background_model_SmoothQL_medium_1",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_SmoothQL_background_model[SmoothQL_medium_1]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_SmoothQL_background_model_SmoothQL_medium_2",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_SmoothQL_background_model[SmoothQL_medium_2]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_SmoothQL_background_model_SmoothQL_hard_1",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_SmoothQL_background_model[SmoothQL_hard_1]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_SmoothQL_background_model_SmoothQL_hard_2",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_SmoothQL_background_model[SmoothQL_hard_2]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_SmoothQL_document_scoring_SmoothQL_soft_1",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_SmoothQL_document_scoring[SmoothQL_soft_1]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_SmoothQL_SmoothQL_soft_2",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_SmoothQL[SmoothQL_soft_2]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_SmoothQL_SmoothQL_medium_1",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_SmoothQL[SmoothQL_medium_1]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_SmoothQL_SmoothQL_medium_2",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_SmoothQL[SmoothQL_medium_2]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_SmoothQL_SmoothQL_hard_1",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_SmoothQL[SmoothQL_hard_1]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_SmoothQL_SmoothQL_hard_2",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_SmoothQL[SmoothQL_hard_2]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_BM25_BM25_soft_1",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_BM25[BM25_soft_1]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_BM25_BM25_soft_2",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_BM25[BM25_soft_2]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_BM25_BM25_hard_1",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_BM25[BM25_hard_1]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_BM25_BM25_hard_2",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_BM25[BM25_hard_2]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_BM25_term_score_BM25_term_score",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_BM25_term_score[BM25_term_score]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_BM25_tf_score_BM25_tf_score",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_BM25_tf_score[BM25_tf_score]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_BM25_idf_score_BM25_idf_score",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestRanking::test_BM25_idf_score[BM25_idf_score]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },   
+    {
+       "name": "test_precision_static",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestEval::test_precision[static]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 4
+    },
+    {
+       "name": "test_precision_dynamic",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestEval::test_precision[dynamic]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 4
+    },
+    {
+       "name": "test_recall_both",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestEval::test_recall[both]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_recall_static",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestEval::test_recall[static]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 4
+    },
+    {
+       "name": "test_recall_dynamic",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestEval::test_recall[dynamic]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 4
+    },
+    {
+       "name": "test_average_prec_both",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestEval::test_average_prec[both]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 3
+    },
+    {
+       "name": "test_average_prec_static",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestEval::test_average_prec[static]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 4
+    },
+    {
+       "name": "test_average_prec_dynamic",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::TestEval::test_average_prec[dynamic]",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 4
+    },
+     {
+       "name": "test_files_exist",
+       "setup": "",
+       "run": "cd tests && PYTHONPATH=.. pytest tests.py::test_files_exist",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 6
+    }
+   ]
+ }
+ 
